@@ -1,0 +1,5 @@
+DEPENDENCIES
+  sysctl
+
+GRAPH
+  sysctl (0.4.0)

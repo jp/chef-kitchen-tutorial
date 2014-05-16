@@ -1,0 +1,11 @@
+{
+  "name": "base_setup",
+  "chef_type": "role",
+  "description": "Setup base components on server",
+  "run_list": [
+    "recipe[sysctl]",
+    "recipe[base_setup]"
+  ],
+  "default_attributes": {},
+  "override_attributes": {}
+}
